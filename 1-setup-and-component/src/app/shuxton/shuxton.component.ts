@@ -22,7 +22,11 @@ export class ShuxtonComponent implements OnInit {
     id:2,
     name: 'Shubham NJ',
     link: 'shubham-nj'
-  }]
+  },
+  {
+    id:3, name: 'Meenakshi G Patil', link: 'meenakshi-gp'
+  }
+]
 
 
   constructor() { }

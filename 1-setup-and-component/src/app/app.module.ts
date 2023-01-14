@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ShuxtonComponent } from './shuxton/shuxton.component';
 import { ShubhamNJComponent } from './shubham-nj/shubham-nj.component';
+import { MeenakshiGPComponent } from './meenakshi-gp/meenakshi-gp.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ShuxtonComponent,
-    ShubhamNJComponent  
+    ShubhamNJComponent,
+    MeenakshiGPComponent  
   ],
   imports: [
     BrowserModule,
