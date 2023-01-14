@@ -1,0 +1,15 @@
+
+<!-- Do not copy this -->
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Link</th>
+    </tr>
+    <tr *ngFor="let p of participants">
+        <td>{{p.id}}</td>
+        <td>{{p.name}}</td>
+        <td><a href="{{p.link}}">{{p.link}}</a></td>
+    </tr>
+</table>
+<!-- End -->
