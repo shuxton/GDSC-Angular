@@ -6,7 +6,7 @@ This repository contains the code for the Learn Angular workshop conducted by GD
 None
 
 ## Download and Installation
-1. Download and install [Node.js](https://nodejs.org/en/download/)
+1. Download and install [Node.js v16.14.0](https://nodejs.org/download/release/v16.14.0/win-x64/)
 2. Download and install [VS Code](https://code.visualstudio.com/download)
 3. Download and install [Github Desktop](https://desktop.github.com/)
 4. Clone the repository using Github Desktop
