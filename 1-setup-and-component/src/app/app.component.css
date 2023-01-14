@@ -52,3 +52,24 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+img {
+  width: "200px";
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  img {
+    width: 125px;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 500;
+  }
+}
