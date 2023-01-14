@@ -17,7 +17,12 @@ export class ShuxtonComponent implements OnInit {
 
   //Add your name and link to the array below
 
-  participants : Participant[]= [{id:1,name: 'Shubham', link: 'shuxton'}]
+  participants : Participant[]= [{id:1,name: 'Shubham', link: 'shuxton'},
+  {
+    id:2,
+    name: 'Shubham NJ',
+    link: 'shubham-nj'
+  }]
 
 
   constructor() { }
