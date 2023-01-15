@@ -18,11 +18,12 @@ const routes: Routes = [
   { path: 'meenakshi-gp', component: MeenakshiGPComponent },
   { path: 'vinayaknm', component: VinayaknmComponent },
   { path: 'shivamrutg', component: ShivamrutgComponent },
-<<<<<<< HEAD
-  { path: 'fathima-al-zahra' , component: FathimaalzahraComponent}
-=======
+  {path: 'fathima-al-zahra' , component: FathimaalzahraComponent},
+
   { path:'yukthaa', component: YukthaaComponent},
->>>>>>> 7c3e87224c618a693f94e891a185a5f4042da87b
+
+  { path:'yukthaa', component: YukthaaComponent},
+
 ];
 
 @NgModule({
