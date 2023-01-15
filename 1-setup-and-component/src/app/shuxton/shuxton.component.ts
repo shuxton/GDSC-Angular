@@ -20,6 +20,7 @@ export class ShuxtonComponent implements OnInit {
   { id: 3, name: 'Kartikeya Saini', link: 'kartikeya' },
   { id: 4, name: 'Meenakshi G Patil', link: 'meenakshi-gp' }, 
   { id: 5 ,name: 'Vinayak N M', link: 'vinayaknm'},
+
   { id: 5 ,name: 'Shivamrut G', link: 'shivamrutg'},
   
 
@@ -31,6 +32,11 @@ export class ShuxtonComponent implements OnInit {
   { id: 6 ,name: 'Shivamrut G', link: 'shivamrutg'},
   { id: 7, name:'Yuktha', link: 'yukthaa'},
   { id: 8, name: 'Fathima' , link: 'fathima-al-zahra' },
+
+
+  { id: 6 ,name: 'Shivamrut G', link: 'shivamrutg'},
+  { id: 7, name:'Yuktha', link: 'yukthaa'},
+  { id: 8, name: 'Fathima' , link: 'fathima-al-zahra' }
 
 ]
 
