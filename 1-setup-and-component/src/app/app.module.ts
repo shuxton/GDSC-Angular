@@ -6,6 +6,7 @@ import { ShuxtonComponent } from './shuxton/shuxton.component';
 import { ShubhamNJComponent } from './shubham-nj/shubham-nj.component';
 import { VinayaknmComponent } from './vinayaknm/vinayaknm.component';
 import { ShivamrutgComponent } from './shivamrutg/shivamrutg.component';
+import { YukthaaComponent } from './yukthaa/yukthaa.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ShivamrutgComponent } from './shivamrutg/shivamrutg.component';
     ShuxtonComponent,
     ShubhamNJComponent,
     VinayaknmComponent,
-    ShivamrutgComponent
+    ShivamrutgComponent,
+    YukthaaComponent
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,7 @@ import { ShivamrutgComponent } from './shivamrutg/shivamrutg.component';
 import { ShubhamNJComponent } from './shubham-nj/shubham-nj.component';
 import { ShuxtonComponent } from './shuxton/shuxton.component';
 import { VinayaknmComponent } from './vinayaknm/vinayaknm.component';
+import { YukthaaComponent } from './yukthaa/yukthaa.component';
 
 // Add your component here
 // Please make sure that the path is the same as the link you added in the shuxton.component.ts file
@@ -15,8 +16,8 @@ const routes: Routes = [
   { path: 'kartikeya', component: KartikeyaComponent },
   { path: 'meenakshi-gp', component: MeenakshiGPComponent },
   { path: 'vinayaknm', component: VinayaknmComponent },
-  { path: 'shivamrutg', component: ShivamrutgComponent }
-
+  { path: 'shivamrutg', component: ShivamrutgComponent },
+  { path:'yukthaa', component: YukthaaComponent},
 ];
 
 @NgModule({
