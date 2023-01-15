@@ -6,18 +6,19 @@ import { AppComponent } from './app.component';
 import { ShuxtonComponent } from './shuxton/shuxton.component';
 import { ShubhamNJComponent } from './shubham-nj/shubham-nj.component';
 import { KartikeyaComponent } from './kartikeya/kartikeya.component';
-import { MeenakshiGPComponent } from './meenakshi-gp/meenakshi-gp.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ShuxtonComponent,
     ShubhamNJComponent,
-    KartikeyaComponent,
-    MeenakshiGPComponent,
+    KartikeyaComponent  
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }

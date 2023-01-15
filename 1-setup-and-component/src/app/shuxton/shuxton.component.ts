@@ -16,9 +16,16 @@ export class ShuxtonComponent implements OnInit {
 
   participants: Participant[] = [
     { id: 1, name: 'Shubham', link: 'shuxton' },
-    { id: 2, name: 'Shubham NJ', link: 'shubham-nj' },
-    { id: 3, name: 'Kartikeya Saini', link: 'kartikeya' },
-    { id: 4, name: 'Meenakshi G Patil', link: 'meenakshi-gp' },
+    {
+      id: 2,
+      name: 'Shubham NJ',
+      link: 'shubham-nj',
+    },
+    {
+      id: 3,
+      name: 'Kartikeya Saini',
+      link: 'kartikeya',
+    },
   ];
 
   constructor() {}
