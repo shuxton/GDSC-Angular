@@ -20,7 +20,8 @@ import { VinayaknmComponent } from './vinayaknm/vinayaknm.component';
     BrowserModule,
     AppRoutingModule
   ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { KartikeyaComponent } from './kartikeya/kartikeya.component';
+import { MeenakshiGPComponent } from './meenakshi-gp/meenakshi-gp.component';
 import { ShubhamNJComponent } from './shubham-nj/shubham-nj.component';
 import { ShuxtonComponent } from './shuxton/shuxton.component';
 import { VinayaknmComponent } from './vinayaknm/vinayaknm.component';
@@ -13,6 +15,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

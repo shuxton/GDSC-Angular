@@ -1,21 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { VinayaknmComponent } from '../vinayaknm/vinayaknm.component';
 
-
 interface Participant {
   id: number;
   name: string;
   link: string;
 }
 
-
 @Component({
   selector: 'app-shuxton',
   templateUrl: './shuxton.component.html',
-  styleUrls: ['./shuxton.component.css']
+  styleUrls: ['./shuxton.component.css'],
 })
 export class ShuxtonComponent implements OnInit {
-
   //Add your name and link to the array below
 
   participants : Participant[]= [{id:1,name: 'Shubham', link: 'shuxton'},
@@ -30,10 +27,7 @@ export class ShuxtonComponent implements OnInit {
 
   }]
 
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
