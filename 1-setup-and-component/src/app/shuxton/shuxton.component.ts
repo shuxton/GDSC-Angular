@@ -20,7 +20,14 @@ export class ShuxtonComponent implements OnInit {
   { id: 3, name: 'Kartikeya Saini', link: 'kartikeya' },
   { id: 4, name: 'Meenakshi G Patil', link: 'meenakshi-gp' }, 
   { id: 5 ,name: 'Vinayak N M', link: 'vinayaknm'},
-  { id: 5 ,name: 'Shivamrut G', link: 'shivamrutg'}
+<<<<<<< HEAD
+  { id: 5 ,name: 'Shivamrut G', link: 'shivamrutg'},
+  { id: 6, name: 'Fathima' , link: 'fathima-al-zahra' }
+
+=======
+  { id: 6 ,name: 'Shivamrut G', link: 'shivamrutg'},
+  { id: 7, name:'Yuktha', link: 'yukthaa'},
+>>>>>>> 7c3e87224c618a693f94e891a185a5f4042da87b
 
 ]
 
