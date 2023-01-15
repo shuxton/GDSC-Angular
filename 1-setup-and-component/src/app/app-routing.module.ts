@@ -9,7 +9,10 @@ import { VinayaknmComponent } from './vinayaknm/vinayaknm.component';
 // Add your component here
 // Please make sure that the path is the same as the link you added in the shuxton.component.ts file
 const routes: Routes = [
-  { path: 'shuxton', component: ShuxtonComponent } , 
+  { path: 'shuxton', component: ShuxtonComponent },
+  { path: 'shubham-nj', component: ShubhamNJComponent },
+  { path: 'kartikeya', component: KartikeyaComponent },
+  { path: 'meenakshi-gp', component: MeenakshiGPComponent },
   { path: 'vinayaknm', component: VinayaknmComponent }
 ];
 

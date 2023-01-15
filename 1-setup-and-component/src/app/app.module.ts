@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ShuxtonComponent } from './shuxton/shuxton.component';
@@ -13,14 +12,12 @@ import { VinayaknmComponent } from './vinayaknm/vinayaknm.component';
     AppComponent,
     ShuxtonComponent,
     ShubhamNJComponent,
-    VinayaknmComponent,
-   
+    VinayaknmComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })
