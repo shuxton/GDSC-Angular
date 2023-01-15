@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { KartikeyaComponent } from './kartikeya/kartikeya.component';
 import { MeenakshiGPComponent } from './meenakshi-gp/meenakshi-gp.component';
+import { ShivamrutgComponent } from './shivamrutg/shivamrutg.component';
 import { ShubhamNJComponent } from './shubham-nj/shubham-nj.component';
 import { ShuxtonComponent } from './shuxton/shuxton.component';
 import { VinayaknmComponent } from './vinayaknm/vinayaknm.component';
@@ -13,7 +14,9 @@ const routes: Routes = [
   { path: 'shubham-nj', component: ShubhamNJComponent },
   { path: 'kartikeya', component: KartikeyaComponent },
   { path: 'meenakshi-gp', component: MeenakshiGPComponent },
-  { path: 'vinayaknm', component: VinayaknmComponent }
+  { path: 'vinayaknm', component: VinayaknmComponent },
+  { path: 'shivamrutg', component: ShivamrutgComponent }
+
 ];
 
 @NgModule({
