@@ -16,10 +16,6 @@ import { VinayaknmComponent } from './vinayaknm/vinayaknm.component';
     VinayaknmComponent,
    
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
