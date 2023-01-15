@@ -11,7 +11,6 @@ const routes: Routes = [
   { path: 'shuxton', component: ShuxtonComponent },
   { path: 'shubham-nj', component: ShubhamNJComponent },
   { path: 'kartikeya', component: KartikeyaComponent },
-  ,
   { path: 'meenakshi-gp', component: MeenakshiGPComponent },
 ];
 
