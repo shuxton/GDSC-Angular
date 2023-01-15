@@ -6,6 +6,11 @@ import { ShuxtonComponent } from './shuxton/shuxton.component';
 import { ShubhamNJComponent } from './shubham-nj/shubham-nj.component';
 import { VinayaknmComponent } from './vinayaknm/vinayaknm.component';
 import { ShivamrutgComponent } from './shivamrutg/shivamrutg.component';
+<<<<<<< HEAD
+import { HemaDSComponent } from './hema-ds/hema-ds.component';
+=======
+import { YukthaaComponent } from './yukthaa/yukthaa.component';
+>>>>>>> 7c3e87224c618a693f94e891a185a5f4042da87b
 
 
 @NgModule({
@@ -14,7 +19,12 @@ import { ShivamrutgComponent } from './shivamrutg/shivamrutg.component';
     ShuxtonComponent,
     ShubhamNJComponent,
     VinayaknmComponent,
-    ShivamrutgComponent
+    ShivamrutgComponent,
+<<<<<<< HEAD
+    HemaDSComponent
+=======
+    YukthaaComponent
+>>>>>>> 7c3e87224c618a693f94e891a185a5f4042da87b
   ],
   imports: [
     BrowserModule,
