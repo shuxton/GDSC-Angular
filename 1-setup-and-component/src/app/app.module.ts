@@ -6,12 +6,10 @@ import { ShuxtonComponent } from './shuxton/shuxton.component';
 import { ShubhamNJComponent } from './shubham-nj/shubham-nj.component';
 import { VinayaknmComponent } from './vinayaknm/vinayaknm.component';
 import { ShivamrutgComponent } from './shivamrutg/shivamrutg.component';
+import { YukthaaComponent } from './yukthaa/yukthaa.component';
 import { FathimaalzahraComponent } from './fathimaalzahra/fathimaalzahra.component';
 
-import { YukthaaComponent } from './yukthaa/yukthaa.component';
 
-
-import { YukthaaComponent } from './yukthaa/yukthaa.component';
 
 
 
@@ -22,12 +20,8 @@ import { YukthaaComponent } from './yukthaa/yukthaa.component';
     ShubhamNJComponent,
     VinayaknmComponent,
     ShivamrutgComponent,
-    FathimaalzahraComponent,
-
-    YukthaaComponent
-
-    YukthaaComponent
-
+    YukthaaComponent,
+    FathimaalzahraComponent
   ],
   imports: [
     BrowserModule,
