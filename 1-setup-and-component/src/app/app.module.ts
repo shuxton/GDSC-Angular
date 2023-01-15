@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ShuxtonComponent } from './shuxton/shuxton.component';
 import { ShubhamNJComponent } from './shubham-nj/shubham-nj.component';
+import { VinayaknmComponent } from './vinayaknm/vinayaknm.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ShuxtonComponent,
-    ShubhamNJComponent  
+    ShubhamNJComponent,
+    VinayaknmComponent,
+   
   ],
   imports: [
     BrowserModule,

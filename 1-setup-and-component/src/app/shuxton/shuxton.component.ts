@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { VinayaknmComponent } from '../vinayaknm/vinayaknm.component';
 
 
 interface Participant {
@@ -22,6 +23,11 @@ export class ShuxtonComponent implements OnInit {
     id:2,
     name: 'Shubham NJ',
     link: 'shubham-nj'
+  } , {
+    id:3,
+    name: 'Vinayak N M',
+    link: 'vinayaknm'
+
   }]
 
 
