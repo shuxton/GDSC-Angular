@@ -8,6 +8,7 @@ import { VinayaknmComponent } from './vinayaknm/vinayaknm.component';
 import { ShivamrutgComponent } from './shivamrutg/shivamrutg.component';
 import { YukthaaComponent } from './yukthaa/yukthaa.component';
 import { FathimaalzahraComponent } from './fathimaalzahra/fathimaalzahra.component';
+import { SajidHusainPatilComponent } from './sajid-husain-patil/sajid-husain-patil.component';
 
 
 
@@ -21,7 +22,8 @@ import { FathimaalzahraComponent } from './fathimaalzahra/fathimaalzahra.compone
     VinayaknmComponent,
     ShivamrutgComponent,
     YukthaaComponent,
-    FathimaalzahraComponent
+    FathimaalzahraComponent,
+    SajidHusainPatilComponent
   ],
   imports: [
     BrowserModule,
