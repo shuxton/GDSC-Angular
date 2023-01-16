@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { FathimaalzahraComponent } from './fathimaalzahra/fathimaalzahra.component';
 import { KartikeyaComponent } from './kartikeya/kartikeya.component';
 import { MeenakshiGPComponent } from './meenakshi-gp/meenakshi-gp.component';
+import { SajidHusainPatilComponent } from './sajid-husain-patil/sajid-husain-patil.component';
 import { ShivamrutgComponent } from './shivamrutg/shivamrutg.component';
 import { ShubhamNJComponent } from './shubham-nj/shubham-nj.component';
 import { ShuxtonComponent } from './shuxton/shuxton.component';
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path:'yukthaa', component: YukthaaComponent},
 
   { path:'yukthaa', component: YukthaaComponent},
+  { path:'sajid-husain-patil',component:SajidHusainPatilComponent}
 
 ];
 
