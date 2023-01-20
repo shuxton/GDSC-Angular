@@ -1,15 +1,28 @@
-
 <html>
-<h1 align="center"> Hey everyone, it's me <strong>VINAYAK</strong> from AIML </h1>
 
 
-<div class="content"><div class="mycube"><div class="top"></div><div>
-        
-     <span style="--i:2;"><img class="image" ></span>
-     <span style="--i:1;"><img class="image" ></span>
-     <span style="--i:0;"><img class="image" ></span>
-         <span style="--i:3;"><img class="image"> </span>
-    </div>
-</div>
 
-    
+<body>
+
+  <h1 class="CTR"> TIC TAC TOE </h1>
+
+  <table>
+    <tr *ngFor="let row of board; let i = index">
+      <td *ngFor="let cell of row; let j = index" (click)="handleClick(i, j)">
+        {{ cell || '-' }}
+      </td>
+    </tr>
+  </table>
+  <div *ngIf="winner" style="text-align: center; color: rgb(218, 237, 79); font-size:30px; ">{{ winner }} wins!<br>
+  </div>
+
+  <button (click)="reset()">Reset</button>
+
+  <div class="CTR">
+    <H2> THIS IS MY FIRST ANGULAR PROJECT CREATED MIDWAY JOURNEY<BR>
+      I HOPE YOU ENJOY THE GAME </H2>
+  </div>
+
+</body>
+
+</html>
