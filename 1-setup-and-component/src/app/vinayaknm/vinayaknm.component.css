@@ -1,81 +1,63 @@
-h1{
-    color: rgb(223, 229, 235);
-}
-html{
-    background: linear-gradient(black, purple,pink);
-    height: 100vh;
-}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    padding: 10px;
+    background-color: #f2f2f25a;
+  }
+  .CTR{
+    text-align: center;
+    
+  }
+  H1{color:rgb(7, 52, 37);}
 
 
 
-.mycube {
-    position:relative;
-    align-self:centre;
-    top: 100px;
-    left: 50%;
+  td {
     width: 100px;
     height: 100px;
-    transform-style: preserve-3d;
-    transform: rotateX(-30deg);
-    animation: animate 4s linear infinite;
-}
-@keyframes animate
-{
-    0%
-    {
-        transform: rotateX(-30deg) rotateY(0deg);
-    }
-    50%
-    {
-        transform: rotateX(-30deg) rotateY(180deg);
-    }
-    100%
-    {
-        transform: rotateX(-30deg) rotateY(360deg);
-    }
-}
-.mycube div{
-    position: relative;
-    top: 0;
-    left: 0;
-    transform-style: preserve-3d;
-    width: 100%;
-    height: 100%;
-}
-.mycube div span{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient( rgb(21, 255, 0), #ff0000);
-    transform: rotateY(calc(90deg * var(--i))) translateZ(50px);
+    text-align: center;
+    vertical-align: middle;
+    font-size: 48px;
+    font-weight: bold;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: rgba(255, 255, 255, 0.137);
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+h2{
+  background: linear-gradient(GOLD, rgb(133, 236, 188),WHITE , rgb(235, 151, 151),rgb(117, 218, 227));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
-.top
-{
-position: relative;
-top: 0;
-left: 0;
-width: 100px;
-height: 100px;
-background-size: 100px;
-background: rgb(21, 255, 0);
-background-image: url() ;
-transform: rotateX(90deg) translateZ(-50px);
-}
-.top::before
-{
-content:'';
-position:absolute;
-background: rgba(219, 197, 144, 0);
-transform: translateZ(-100px);
-top: 0;
-left: 0;
-width: 100px;
-height: 100px;
-filter: blur(20px);
-box-shadow: 0 0 120px rgba(0,255,0,0.2),0 0 120px rgba(0,255,0,0.4)0 0 120px rgba(0,255,0,0.6)0 0 120px rgba(0,255,0,0.1);
+  td:hover {
+    cursor: pointer;
+    background-color: #ddd;
+  }
+  
+
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    position:relative;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 20px;
+    display:block;
+    margin: 20px  auto;
+  }
 
 
-}
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  body{
+    background: linear-gradient(pink , purple , black);
+    height: 100vh;
+    width: 100vw;
+  }
