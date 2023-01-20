@@ -1,28 +1,28 @@
 <html>
+  <body>
+    <h1 class="CTR">TIC TAC TOE</h1>
 
+    <table>
+      <tr *ngFor="let row of board; let i = index">
+        <td *ngFor="let cell of row; let j = index" (click)="handleClick(i, j)">
+          {{ cell || "-" }}
+        </td>
+      </tr>
+    </table>
+    <div
+      *ngIf="winner"
+      style="text-align: center; color: rgb(218, 237, 79); font-size: 30px"
+    >
+      {{ winner }} wins!<br />
+    </div>
 
+    <button (click)="reset()">Reset</button>
 
-<body>
-
-  <h1 class="CTR"> TIC TAC TOE </h1>
-
-  <table>
-    <tr *ngFor="let row of board; let i = index">
-      <td *ngFor="let cell of row; let j = index" (click)="handleClick(i, j)">
-        {{ cell || '-' }}
-      </td>
-    </tr>
-  </table>
-  <div *ngIf="winner" style="text-align: center; color: rgb(218, 237, 79); font-size:30px; ">{{ winner }} wins!<br>
-  </div>
-
-  <button (click)="reset()">Reset</button>
-
-  <div class="CTR">
-    <H2> THIS IS MY FIRST ANGULAR PROJECT CREATED MIDWAY JOURNEY<BR>
-      I HOPE YOU ENJOY THE GAME </H2>
-  </div>
-
-</body>
-
+    <div class="CTR">
+      <H2>
+        THIS IS MY FIRST ANGULAR PROJECT CREATED MIDWAY JOURNEY<BR /> I HOPE YOU
+        ENJOY THE GAME
+      </H2>
+    </div>
+  </body>
 </html>

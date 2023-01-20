@@ -1,63 +1,64 @@
-
 table {
-    border-collapse: collapse;
-    margin: auto;
-    padding: 10px;
-    background-color: #f2f2f25a;
-  }
-  .CTR{
-    text-align: center;
-    
-  }
-  H1{color:rgb(7, 52, 37);}
-
-
-
-  td {
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 48px;
-    font-weight: bold;
-    border: 1px solid rgb(204, 204, 204);
-    background-color: rgba(255, 255, 255, 0.137);
-    transition: background-color 0.2s ease-in-out;
-  }
-  
-h2{
-  background: linear-gradient(GOLD, rgb(133, 236, 188),WHITE , rgb(235, 151, 151),rgb(117, 218, 227));
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  border-collapse: collapse;
+  margin: auto;
+  padding: 10px;
+  background-color: #f2f2f239;
+}
+.CTR {
+  text-align: center;
+}
+H1 {
+  color: rgb(7, 52, 37);
 }
 
-  td:hover {
-    cursor: pointer;
-    background-color: #ddd;
-  }
-  
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 48px;
+  font-weight: bold;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.137);
+  transition: background-color 0.2s ease-in-out;
+}
 
-  
-  button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    position:relative;
-    border: none;
-    cursor: pointer;
-    width: 50%;
-    border-radius: 20px;
-    display:block;
-    margin: 20px  auto;
-  }
+h2 {
+  background: linear-gradient(
+    GOLD,
+    rgb(133, 236, 188),
+    WHITE,
+    rgb(235, 151, 151),
+    rgb(117, 218, 227)
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 
+td:hover {
+  cursor: pointer;
+  background-color: rgba(255, 253, 253, 0.539);
+}
 
-  button:hover {
-    opacity: 0.8;
-  }
-  
-  body{
-    background: linear-gradient(pink , purple , black);
-    height: 100vh;
-    width: 100vw;
-  }
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  position: relative;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 20px;
+  display: block;
+  margin: 20px auto;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+body {
+  background: linear-gradient(pink, purple, black);
+  height: 100vh;
+  width: 100vw;
+}
