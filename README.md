@@ -1,4 +1,4 @@
-# GDSC UVCE's Learn Angular
+# GDSC UVCE's Learn Angular!
 
 This repository contains the code for the Learn Angular workshop conducted by GDSC UVCE.
 
