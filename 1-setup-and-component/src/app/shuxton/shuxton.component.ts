@@ -24,7 +24,8 @@ export class ShuxtonComponent implements OnInit {
   { id: 6 ,name: 'Shivamrut G', link: 'shivamrutg'},
   { id: 7, name:'Yuktha', link: 'yukthaa'},
   { id: 8, name: 'Fathima' , link: 'fathima-al-zahra' },
-  { id: 9, name: 'sajid' ,  link :'sajid-husain-patil'}
+  { id: 9, name: 'sajid' ,  link :'sajid-husain-patil'},
+  { id: 10, name: 'Karthikeyan T' , link: 'karthikeyan-t'}
 ]
 
   constructor() {}
